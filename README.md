@@ -1,16 +1,34 @@
-# React + Vite
+# GitHub Profile Search
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação React que permite buscar perfis do GitHub e exibir informações do usuário.
 
-Currently, two official plugins are available:
+## Tecnologias utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React
+- Vite
+- CSS
+- API do GitHub
 
-## React Compiler
+## Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Busca de perfil pelo nome de usuário
+- Exibe foto, nome e bio do usuário
+- Mensagem de erro quando perfil não encontrado
+- Suporte a busca pelo Enter ou clique no botão
 
-## Expanding the ESLint configuration
+## Como rodar o projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone o repositório
+git clone https://github.com/VictorLimaVieira/profile-search-github.git
+
+2. Entre na pasta
+cd profile-search-github
+
+3. Instale as dependências
+npm install
+
+4. Rode o projeto
+npm run dev
+
+5. Acesse no navegador
+http://localhost:5173
